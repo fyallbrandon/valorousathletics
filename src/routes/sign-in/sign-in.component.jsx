@@ -5,7 +5,7 @@ const SignIn = () => {
         const response = await signInWithGooglePopup();
         console.log(response);
     };
-    
+
     return (
         <div>
             <h1>Sign In Page</h1>
